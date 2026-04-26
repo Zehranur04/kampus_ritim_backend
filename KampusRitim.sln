@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KampusRitim.Domain", "KampusRitim.Domain\KampusRitim.Domain.csproj", "{8A3B5B1B-6C08-4DB6-8B51-E2769E55B7A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{7C4BA4EE-421F-4DEA-A14D-4CB5F6E3C34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KampusRitim.Application", "KampusRitim.Application\KampusRitim.Application.csproj", "{5FDC3978-B43D-4D61-BD88-EACFBA3CCED0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{D6C6C7EC-84F1-4E00-8BE4-10D4FE2BE5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KampusRitim.Infrastructure", "KampusRitim.Infrastructure\KampusRitim.Infrastructure.csproj", "{F501DD1F-F73E-4B21-A138-D6DD619CD303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{C6973641-87D8-4DA3-AC85-A58237925604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KampusRitim.WebAPI", "KampusRitim.WebAPI\KampusRitim.WebAPI.csproj", "{69A76075-9270-41CA-94E3-76A050ED2D7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A3B5B1B-6C08-4DB6-8B51-E2769E55B7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3B5B1B-6C08-4DB6-8B51-E2769E55B7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3B5B1B-6C08-4DB6-8B51-E2769E55B7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3B5B1B-6C08-4DB6-8B51-E2769E55B7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDC3978-B43D-4D61-BD88-EACFBA3CCED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDC3978-B43D-4D61-BD88-EACFBA3CCED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDC3978-B43D-4D61-BD88-EACFBA3CCED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDC3978-B43D-4D61-BD88-EACFBA3CCED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F501DD1F-F73E-4B21-A138-D6DD619CD303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F501DD1F-F73E-4B21-A138-D6DD619CD303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F501DD1F-F73E-4B21-A138-D6DD619CD303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F501DD1F-F73E-4B21-A138-D6DD619CD303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A76075-9270-41CA-94E3-76A050ED2D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A76075-9270-41CA-94E3-76A050ED2D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A76075-9270-41CA-94E3-76A050ED2D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A76075-9270-41CA-94E3-76A050ED2D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A3B5B1B-6C08-4DB6-8B51-E2769E55B7A3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5FDC3978-B43D-4D61-BD88-EACFBA3CCED0} = {7C4BA4EE-421F-4DEA-A14D-4CB5F6E3C34F}
+		{F501DD1F-F73E-4B21-A138-D6DD619CD303} = {D6C6C7EC-84F1-4E00-8BE4-10D4FE2BE5DD}
+		{69A76075-9270-41CA-94E3-76A050ED2D7F} = {C6973641-87D8-4DA3-AC85-A58237925604}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {118FA014-1260-4191-99FB-B67ECCEFD094}
+	EndGlobalSection
+EndGlobal
